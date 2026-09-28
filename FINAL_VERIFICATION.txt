@@ -1,0 +1,16 @@
+AeroTwin AI FINAL CHECKED BUILD
+================================
+Backend static/runtime checks:
+- 32 sensor definitions verified
+- 15 non-normal fault scenarios verified
+- All 15 fault scenarios generate exactly 32 telemetry values
+- All backend Python files compile successfully
+- Frontend Vite config includes React plugin
+- All 15 fault IDs have a frontend component mapping
+- DigitalTwin3D is wired to the active scenario and fault component
+- Fault-specific 3D localization hooks are present for bearing, lubrication, thermal/combustion,
+  cooling, fuel/injector, mechanical/crankshaft, propeller/shaft, ECU, and air intake.
+
+Note: A full npm install/build was not completed in the isolated checker because the package
+download timed out. The frontend source was statically checked for balanced syntax and configuration.
+Run npm.cmd install and npm.cmd run build on the Windows laptop as the final environment check.

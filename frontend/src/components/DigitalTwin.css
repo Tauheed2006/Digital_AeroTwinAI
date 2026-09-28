@@ -1,0 +1,44 @@
+.twin3d{
+  background: radial-gradient(circle at center,#12345f 0%,#071426 70%);
+  border:1px solid #2563eb;
+  border-radius:24px;
+  overflow:hidden;
+  margin:20px 0;
+  box-shadow:0 0 35px rgba(56,189,248,.25);
+}
+
+.twin3d canvas{
+  height:500px!important;
+}
+
+.twinHeader{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px 24px;
+  color:white;
+}
+
+.twinHeader p{
+  color:#93c5fd;
+  margin-top:4px;
+}
+
+.badge{
+  padding:8px 18px;
+  border-radius:20px;
+  font-weight:700;
+}
+
+.badge.normal{background:#16a34a;}
+.badge.warning{background:#ca8a04;}
+.badge.critical{background:#ea580c;}
+.badge.emergency{background:#dc2626;}
+
+.twinBottom{
+  display:flex;
+  justify-content:space-around;
+  padding:18px;
+  color:white;
+  background:rgba(0,0,0,.25);
+}
